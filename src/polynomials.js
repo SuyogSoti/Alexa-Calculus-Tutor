@@ -27,7 +27,7 @@ module.exports = (operation, equation, lowerBound, UpperBound, callback) => {
     }
     mystr = mystr.replace("open", "(");
     mystr = mystr.replace("close", ")");
-    console.log(mystr);
+    // console.log(mystr);
     wolfram.query(mystr, function(err, result){
         // console.log("Operation: " + operation);
         // console.log("Equation: " + equation);
@@ -36,8 +36,7 @@ module.exports = (operation, equation, lowerBound, UpperBound, callback) => {
         // lol = result[0].subpods[0].text.split("=")[1];
         var first = result.queryresult.pod[0].subpod[0].plaintext[0].toString();
         var second = result.queryresult.pod[1].subpod[0].plaintext[0].toString();
-        // console.log(first);
-        if(first.substring(0,3) == "d/d" || first.split(" ")[1] == "integral" || first.substring(0,3) == "lim"){
+        if(first.substring(0,3) == "d/d" || first.substring(1,9) == "integral" || first.substring(0,3) == "lim"){
             callback(first);
         }else{
             callback(second);
