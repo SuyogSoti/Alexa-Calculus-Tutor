@@ -32,12 +32,12 @@ const handlers = {
 	var upName = "";
         if (polySlot && polySlot.value && opSlot && opSlot.value) {
             polyName = polySlot.value.toLowerCase();
-	    opName = opSlot.value.toLowerCase();
-	    lowName = lowSlot.value.toLowerCase();
-	    upName = upSlot.value.toLowerCase();
+    	    opName = opSlot.value.toLowerCase();
+    	    lowName = lowSlot.value.toLowerCase();
+    	    upName = upSlot.value.toLowerCase();
         }
         var parentof = this;
-        polynomials(opName, polyName, lowName, upName function(ans) {
+        polynomials(opName, polyName, lowName, upName, function(ans) {
             // op = opName;
             // express = polyName;
 
