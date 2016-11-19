@@ -7248,3 +7248,1563 @@ inverse cosine of open x to the tenth power plus x plus ten close
 arc cosine of open x to the tenth power plus x plus ten close
 inverse tangent of open x to the tenth power plus x plus ten close
 arc tangent of open x to the tenth power plus x plus ten close
+a plus one
+a minus one
+a divided by one
+a over one
+a times one
+a multiplied by one
+a plus two
+a minus two
+a divided by two
+a over two
+a times two
+a multiplied by two
+a plus three
+a minus three
+a divided by three
+a over three
+a times three
+a multiplied by three
+a plus four
+a minus four
+a divided by four
+a over four
+a times four
+a multiplied by four
+a plus five
+a minus five
+a divided by five
+a over five
+a times five
+a multiplied by five
+a plus six
+a minus six
+a divided by six
+a over six
+a times six
+a multiplied by six
+a plus seven
+a minus seven
+a divided by seven
+a over seven
+a times seven
+a multiplied by seven
+a plus eight
+a minus eight
+a divided by eight
+a over eight
+a times eight
+a multiplied by eight
+a plus nine
+a minus nine
+a divided by nine
+a over nine
+a times nine
+a multiplied by nine
+a plus ten
+a minus ten
+a divided by ten
+a over ten
+a times ten
+a multiplied by ten
+b plus one
+b minus one
+b divided by one
+b over one
+b times one
+b multiplied by one
+b plus two
+b minus two
+b divided by two
+b over two
+b times two
+b multiplied by two
+b plus three
+b minus three
+b divided by three
+b over three
+b times three
+b multiplied by three
+b plus four
+b minus four
+b divided by four
+b over four
+b times four
+b multiplied by four
+b plus five
+b minus five
+b divided by five
+b over five
+b times five
+b multiplied by five
+b plus six
+b minus six
+b divided by six
+b over six
+b times six
+b multiplied by six
+b plus seven
+b minus seven
+b divided by seven
+b over seven
+b times seven
+b multiplied by seven
+b plus eight
+b minus eight
+b divided by eight
+b over eight
+b times eight
+b multiplied by eight
+b plus nine
+b minus nine
+b divided by nine
+b over nine
+b times nine
+b multiplied by nine
+b plus ten
+b minus ten
+b divided by ten
+b over ten
+b times ten
+b multiplied by ten
+c plus one
+c minus one
+c divided by one
+c over one
+c times one
+c multiplied by one
+c plus two
+c minus two
+c divided by two
+c over two
+c times two
+c multiplied by two
+c plus three
+c minus three
+c divided by three
+c over three
+c times three
+c multiplied by three
+c plus four
+c minus four
+c divided by four
+c over four
+c times four
+c multiplied by four
+c plus five
+c minus five
+c divided by five
+c over five
+c times five
+c multiplied by five
+c plus six
+c minus six
+c divided by six
+c over six
+c times six
+c multiplied by six
+c plus seven
+c minus seven
+c divided by seven
+c over seven
+c times seven
+c multiplied by seven
+c plus eight
+c minus eight
+c divided by eight
+c over eight
+c times eight
+c multiplied by eight
+c plus nine
+c minus nine
+c divided by nine
+c over nine
+c times nine
+c multiplied by nine
+c plus ten
+c minus ten
+c divided by ten
+c over ten
+c times ten
+c multiplied by ten
+d plus one
+d minus one
+d divided by one
+d over one
+d times one
+d multiplied by one
+d plus two
+d minus two
+d divided by two
+d over two
+d times two
+d multiplied by two
+d plus three
+d minus three
+d divided by three
+d over three
+d times three
+d multiplied by three
+d plus four
+d minus four
+d divided by four
+d over four
+d times four
+d multiplied by four
+d plus five
+d minus five
+d divided by five
+d over five
+d times five
+d multiplied by five
+d plus six
+d minus six
+d divided by six
+d over six
+d times six
+d multiplied by six
+d plus seven
+d minus seven
+d divided by seven
+d over seven
+d times seven
+d multiplied by seven
+d plus eight
+d minus eight
+d divided by eight
+d over eight
+d times eight
+d multiplied by eight
+d plus nine
+d minus nine
+d divided by nine
+d over nine
+d times nine
+d multiplied by nine
+d plus ten
+d minus ten
+d divided by ten
+d over ten
+d times ten
+d multiplied by ten
+e plus one
+e minus one
+e divided by one
+e over one
+e times one
+e multiplied by one
+e plus two
+e minus two
+e divided by two
+e over two
+e times two
+e multiplied by two
+e plus three
+e minus three
+e divided by three
+e over three
+e times three
+e multiplied by three
+e plus four
+e minus four
+e divided by four
+e over four
+e times four
+e multiplied by four
+e plus five
+e minus five
+e divided by five
+e over five
+e times five
+e multiplied by five
+e plus six
+e minus six
+e divided by six
+e over six
+e times six
+e multiplied by six
+e plus seven
+e minus seven
+e divided by seven
+e over seven
+e times seven
+e multiplied by seven
+e plus eight
+e minus eight
+e divided by eight
+e over eight
+e times eight
+e multiplied by eight
+e plus nine
+e minus nine
+e divided by nine
+e over nine
+e times nine
+e multiplied by nine
+e plus ten
+e minus ten
+e divided by ten
+e over ten
+e times ten
+e multiplied by ten
+f plus one
+f minus one
+f divided by one
+f over one
+f times one
+f multiplied by one
+f plus two
+f minus two
+f divided by two
+f over two
+f times two
+f multiplied by two
+f plus three
+f minus three
+f divided by three
+f over three
+f times three
+f multiplied by three
+f plus four
+f minus four
+f divided by four
+f over four
+f times four
+f multiplied by four
+f plus five
+f minus five
+f divided by five
+f over five
+f times five
+f multiplied by five
+f plus six
+f minus six
+f divided by six
+f over six
+f times six
+f multiplied by six
+f plus seven
+f minus seven
+f divided by seven
+f over seven
+f times seven
+f multiplied by seven
+f plus eight
+f minus eight
+f divided by eight
+f over eight
+f times eight
+f multiplied by eight
+f plus nine
+f minus nine
+f divided by nine
+f over nine
+f times nine
+f multiplied by nine
+f plus ten
+f minus ten
+f divided by ten
+f over ten
+f times ten
+f multiplied by ten
+g plus one
+g minus one
+g divided by one
+g over one
+g times one
+g multiplied by one
+g plus two
+g minus two
+g divided by two
+g over two
+g times two
+g multiplied by two
+g plus three
+g minus three
+g divided by three
+g over three
+g times three
+g multiplied by three
+g plus four
+g minus four
+g divided by four
+g over four
+g times four
+g multiplied by four
+g plus five
+g minus five
+g divided by five
+g over five
+g times five
+g multiplied by five
+g plus six
+g minus six
+g divided by six
+g over six
+g times six
+g multiplied by six
+g plus seven
+g minus seven
+g divided by seven
+g over seven
+g times seven
+g multiplied by seven
+g plus eight
+g minus eight
+g divided by eight
+g over eight
+g times eight
+g multiplied by eight
+g plus nine
+g minus nine
+g divided by nine
+g over nine
+g times nine
+g multiplied by nine
+g plus ten
+g minus ten
+g divided by ten
+g over ten
+g times ten
+g multiplied by ten
+h plus one
+h minus one
+h divided by one
+h over one
+h times one
+h multiplied by one
+h plus two
+h minus two
+h divided by two
+h over two
+h times two
+h multiplied by two
+h plus three
+h minus three
+h divided by three
+h over three
+h times three
+h multiplied by three
+h plus four
+h minus four
+h divided by four
+h over four
+h times four
+h multiplied by four
+h plus five
+h minus five
+h divided by five
+h over five
+h times five
+h multiplied by five
+h plus six
+h minus six
+h divided by six
+h over six
+h times six
+h multiplied by six
+h plus seven
+h minus seven
+h divided by seven
+h over seven
+h times seven
+h multiplied by seven
+h plus eight
+h minus eight
+h divided by eight
+h over eight
+h times eight
+h multiplied by eight
+h plus nine
+h minus nine
+h divided by nine
+h over nine
+h times nine
+h multiplied by nine
+h plus ten
+h minus ten
+h divided by ten
+h over ten
+h times ten
+h multiplied by ten
+i plus one
+i minus one
+i divided by one
+i over one
+i times one
+i multiplied by one
+i plus two
+i minus two
+i divided by two
+i over two
+i times two
+i multiplied by two
+i plus three
+i minus three
+i divided by three
+i over three
+i times three
+i multiplied by three
+i plus four
+i minus four
+i divided by four
+i over four
+i times four
+i multiplied by four
+i plus five
+i minus five
+i divided by five
+i over five
+i times five
+i multiplied by five
+i plus six
+i minus six
+i divided by six
+i over six
+i times six
+i multiplied by six
+i plus seven
+i minus seven
+i divided by seven
+i over seven
+i times seven
+i multiplied by seven
+i plus eight
+i minus eight
+i divided by eight
+i over eight
+i times eight
+i multiplied by eight
+i plus nine
+i minus nine
+i divided by nine
+i over nine
+i times nine
+i multiplied by nine
+i plus ten
+i minus ten
+i divided by ten
+i over ten
+i times ten
+i multiplied by ten
+j plus one
+j minus one
+j divided by one
+j over one
+j times one
+j multiplied by one
+j plus two
+j minus two
+j divided by two
+j over two
+j times two
+j multiplied by two
+j plus three
+j minus three
+j divided by three
+j over three
+j times three
+j multiplied by three
+j plus four
+j minus four
+j divided by four
+j over four
+j times four
+j multiplied by four
+j plus five
+j minus five
+j divided by five
+j over five
+j times five
+j multiplied by five
+j plus six
+j minus six
+j divided by six
+j over six
+j times six
+j multiplied by six
+j plus seven
+j minus seven
+j divided by seven
+j over seven
+j times seven
+j multiplied by seven
+j plus eight
+j minus eight
+j divided by eight
+j over eight
+j times eight
+j multiplied by eight
+j plus nine
+j minus nine
+j divided by nine
+j over nine
+j times nine
+j multiplied by nine
+j plus ten
+j minus ten
+j divided by ten
+j over ten
+j times ten
+j multiplied by ten
+k plus one
+k minus one
+k divided by one
+k over one
+k times one
+k multiplied by one
+k plus two
+k minus two
+k divided by two
+k over two
+k times two
+k multiplied by two
+k plus three
+k minus three
+k divided by three
+k over three
+k times three
+k multiplied by three
+k plus four
+k minus four
+k divided by four
+k over four
+k times four
+k multiplied by four
+k plus five
+k minus five
+k divided by five
+k over five
+k times five
+k multiplied by five
+k plus six
+k minus six
+k divided by six
+k over six
+k times six
+k multiplied by six
+k plus seven
+k minus seven
+k divided by seven
+k over seven
+k times seven
+k multiplied by seven
+k plus eight
+k minus eight
+k divided by eight
+k over eight
+k times eight
+k multiplied by eight
+k plus nine
+k minus nine
+k divided by nine
+k over nine
+k times nine
+k multiplied by nine
+k plus ten
+k minus ten
+k divided by ten
+k over ten
+k times ten
+k multiplied by ten
+l plus one
+l minus one
+l divided by one
+l over one
+l times one
+l multiplied by one
+l plus two
+l minus two
+l divided by two
+l over two
+l times two
+l multiplied by two
+l plus three
+l minus three
+l divided by three
+l over three
+l times three
+l multiplied by three
+l plus four
+l minus four
+l divided by four
+l over four
+l times four
+l multiplied by four
+l plus five
+l minus five
+l divided by five
+l over five
+l times five
+l multiplied by five
+l plus six
+l minus six
+l divided by six
+l over six
+l times six
+l multiplied by six
+l plus seven
+l minus seven
+l divided by seven
+l over seven
+l times seven
+l multiplied by seven
+l plus eight
+l minus eight
+l divided by eight
+l over eight
+l times eight
+l multiplied by eight
+l plus nine
+l minus nine
+l divided by nine
+l over nine
+l times nine
+l multiplied by nine
+l plus ten
+l minus ten
+l divided by ten
+l over ten
+l times ten
+l multiplied by ten
+m plus one
+m minus one
+m divided by one
+m over one
+m times one
+m multiplied by one
+m plus two
+m minus two
+m divided by two
+m over two
+m times two
+m multiplied by two
+m plus three
+m minus three
+m divided by three
+m over three
+m times three
+m multiplied by three
+m plus four
+m minus four
+m divided by four
+m over four
+m times four
+m multiplied by four
+m plus five
+m minus five
+m divided by five
+m over five
+m times five
+m multiplied by five
+m plus six
+m minus six
+m divided by six
+m over six
+m times six
+m multiplied by six
+m plus seven
+m minus seven
+m divided by seven
+m over seven
+m times seven
+m multiplied by seven
+m plus eight
+m minus eight
+m divided by eight
+m over eight
+m times eight
+m multiplied by eight
+m plus nine
+m minus nine
+m divided by nine
+m over nine
+m times nine
+m multiplied by nine
+m plus ten
+m minus ten
+m divided by ten
+m over ten
+m times ten
+m multiplied by ten
+n plus one
+n minus one
+n divided by one
+n over one
+n times one
+n multiplied by one
+n plus two
+n minus two
+n divided by two
+n over two
+n times two
+n multiplied by two
+n plus three
+n minus three
+n divided by three
+n over three
+n times three
+n multiplied by three
+n plus four
+n minus four
+n divided by four
+n over four
+n times four
+n multiplied by four
+n plus five
+n minus five
+n divided by five
+n over five
+n times five
+n multiplied by five
+n plus six
+n minus six
+n divided by six
+n over six
+n times six
+n multiplied by six
+n plus seven
+n minus seven
+n divided by seven
+n over seven
+n times seven
+n multiplied by seven
+n plus eight
+n minus eight
+n divided by eight
+n over eight
+n times eight
+n multiplied by eight
+n plus nine
+n minus nine
+n divided by nine
+n over nine
+n times nine
+n multiplied by nine
+n plus ten
+n minus ten
+n divided by ten
+n over ten
+n times ten
+n multiplied by ten
+o plus one
+o minus one
+o divided by one
+o over one
+o times one
+o multiplied by one
+o plus two
+o minus two
+o divided by two
+o over two
+o times two
+o multiplied by two
+o plus three
+o minus three
+o divided by three
+o over three
+o times three
+o multiplied by three
+o plus four
+o minus four
+o divided by four
+o over four
+o times four
+o multiplied by four
+o plus five
+o minus five
+o divided by five
+o over five
+o times five
+o multiplied by five
+o plus six
+o minus six
+o divided by six
+o over six
+o times six
+o multiplied by six
+o plus seven
+o minus seven
+o divided by seven
+o over seven
+o times seven
+o multiplied by seven
+o plus eight
+o minus eight
+o divided by eight
+o over eight
+o times eight
+o multiplied by eight
+o plus nine
+o minus nine
+o divided by nine
+o over nine
+o times nine
+o multiplied by nine
+o plus ten
+o minus ten
+o divided by ten
+o over ten
+o times ten
+o multiplied by ten
+p plus one
+p minus one
+p divided by one
+p over one
+p times one
+p multiplied by one
+p plus two
+p minus two
+p divided by two
+p over two
+p times two
+p multiplied by two
+p plus three
+p minus three
+p divided by three
+p over three
+p times three
+p multiplied by three
+p plus four
+p minus four
+p divided by four
+p over four
+p times four
+p multiplied by four
+p plus five
+p minus five
+p divided by five
+p over five
+p times five
+p multiplied by five
+p plus six
+p minus six
+p divided by six
+p over six
+p times six
+p multiplied by six
+p plus seven
+p minus seven
+p divided by seven
+p over seven
+p times seven
+p multiplied by seven
+p plus eight
+p minus eight
+p divided by eight
+p over eight
+p times eight
+p multiplied by eight
+p plus nine
+p minus nine
+p divided by nine
+p over nine
+p times nine
+p multiplied by nine
+p plus ten
+p minus ten
+p divided by ten
+p over ten
+p times ten
+p multiplied by ten
+q plus one
+q minus one
+q divided by one
+q over one
+q times one
+q multiplied by one
+q plus two
+q minus two
+q divided by two
+q over two
+q times two
+q multiplied by two
+q plus three
+q minus three
+q divided by three
+q over three
+q times three
+q multiplied by three
+q plus four
+q minus four
+q divided by four
+q over four
+q times four
+q multiplied by four
+q plus five
+q minus five
+q divided by five
+q over five
+q times five
+q multiplied by five
+q plus six
+q minus six
+q divided by six
+q over six
+q times six
+q multiplied by six
+q plus seven
+q minus seven
+q divided by seven
+q over seven
+q times seven
+q multiplied by seven
+q plus eight
+q minus eight
+q divided by eight
+q over eight
+q times eight
+q multiplied by eight
+q plus nine
+q minus nine
+q divided by nine
+q over nine
+q times nine
+q multiplied by nine
+q plus ten
+q minus ten
+q divided by ten
+q over ten
+q times ten
+q multiplied by ten
+r plus one
+r minus one
+r divided by one
+r over one
+r times one
+r multiplied by one
+r plus two
+r minus two
+r divided by two
+r over two
+r times two
+r multiplied by two
+r plus three
+r minus three
+r divided by three
+r over three
+r times three
+r multiplied by three
+r plus four
+r minus four
+r divided by four
+r over four
+r times four
+r multiplied by four
+r plus five
+r minus five
+r divided by five
+r over five
+r times five
+r multiplied by five
+r plus six
+r minus six
+r divided by six
+r over six
+r times six
+r multiplied by six
+r plus seven
+r minus seven
+r divided by seven
+r over seven
+r times seven
+r multiplied by seven
+r plus eight
+r minus eight
+r divided by eight
+r over eight
+r times eight
+r multiplied by eight
+r plus nine
+r minus nine
+r divided by nine
+r over nine
+r times nine
+r multiplied by nine
+r plus ten
+r minus ten
+r divided by ten
+r over ten
+r times ten
+r multiplied by ten
+s plus one
+s minus one
+s divided by one
+s over one
+s times one
+s multiplied by one
+s plus two
+s minus two
+s divided by two
+s over two
+s times two
+s multiplied by two
+s plus three
+s minus three
+s divided by three
+s over three
+s times three
+s multiplied by three
+s plus four
+s minus four
+s divided by four
+s over four
+s times four
+s multiplied by four
+s plus five
+s minus five
+s divided by five
+s over five
+s times five
+s multiplied by five
+s plus six
+s minus six
+s divided by six
+s over six
+s times six
+s multiplied by six
+s plus seven
+s minus seven
+s divided by seven
+s over seven
+s times seven
+s multiplied by seven
+s plus eight
+s minus eight
+s divided by eight
+s over eight
+s times eight
+s multiplied by eight
+s plus nine
+s minus nine
+s divided by nine
+s over nine
+s times nine
+s multiplied by nine
+s plus ten
+s minus ten
+s divided by ten
+s over ten
+s times ten
+s multiplied by ten
+t plus one
+t minus one
+t divided by one
+t over one
+t times one
+t multiplied by one
+t plus two
+t minus two
+t divided by two
+t over two
+t times two
+t multiplied by two
+t plus three
+t minus three
+t divided by three
+t over three
+t times three
+t multiplied by three
+t plus four
+t minus four
+t divided by four
+t over four
+t times four
+t multiplied by four
+t plus five
+t minus five
+t divided by five
+t over five
+t times five
+t multiplied by five
+t plus six
+t minus six
+t divided by six
+t over six
+t times six
+t multiplied by six
+t plus seven
+t minus seven
+t divided by seven
+t over seven
+t times seven
+t multiplied by seven
+t plus eight
+t minus eight
+t divided by eight
+t over eight
+t times eight
+t multiplied by eight
+t plus nine
+t minus nine
+t divided by nine
+t over nine
+t times nine
+t multiplied by nine
+t plus ten
+t minus ten
+t divided by ten
+t over ten
+t times ten
+t multiplied by ten
+u plus one
+u minus one
+u divided by one
+u over one
+u times one
+u multiplied by one
+u plus two
+u minus two
+u divided by two
+u over two
+u times two
+u multiplied by two
+u plus three
+u minus three
+u divided by three
+u over three
+u times three
+u multiplied by three
+u plus four
+u minus four
+u divided by four
+u over four
+u times four
+u multiplied by four
+u plus five
+u minus five
+u divided by five
+u over five
+u times five
+u multiplied by five
+u plus six
+u minus six
+u divided by six
+u over six
+u times six
+u multiplied by six
+u plus seven
+u minus seven
+u divided by seven
+u over seven
+u times seven
+u multiplied by seven
+u plus eight
+u minus eight
+u divided by eight
+u over eight
+u times eight
+u multiplied by eight
+u plus nine
+u minus nine
+u divided by nine
+u over nine
+u times nine
+u multiplied by nine
+u plus ten
+u minus ten
+u divided by ten
+u over ten
+u times ten
+u multiplied by ten
+v plus one
+v minus one
+v divided by one
+v over one
+v times one
+v multiplied by one
+v plus two
+v minus two
+v divided by two
+v over two
+v times two
+v multiplied by two
+v plus three
+v minus three
+v divided by three
+v over three
+v times three
+v multiplied by three
+v plus four
+v minus four
+v divided by four
+v over four
+v times four
+v multiplied by four
+v plus five
+v minus five
+v divided by five
+v over five
+v times five
+v multiplied by five
+v plus six
+v minus six
+v divided by six
+v over six
+v times six
+v multiplied by six
+v plus seven
+v minus seven
+v divided by seven
+v over seven
+v times seven
+v multiplied by seven
+v plus eight
+v minus eight
+v divided by eight
+v over eight
+v times eight
+v multiplied by eight
+v plus nine
+v minus nine
+v divided by nine
+v over nine
+v times nine
+v multiplied by nine
+v plus ten
+v minus ten
+v divided by ten
+v over ten
+v times ten
+v multiplied by ten
+w plus one
+w minus one
+w divided by one
+w over one
+w times one
+w multiplied by one
+w plus two
+w minus two
+w divided by two
+w over two
+w times two
+w multiplied by two
+w plus three
+w minus three
+w divided by three
+w over three
+w times three
+w multiplied by three
+w plus four
+w minus four
+w divided by four
+w over four
+w times four
+w multiplied by four
+w plus five
+w minus five
+w divided by five
+w over five
+w times five
+w multiplied by five
+w plus six
+w minus six
+w divided by six
+w over six
+w times six
+w multiplied by six
+w plus seven
+w minus seven
+w divided by seven
+w over seven
+w times seven
+w multiplied by seven
+w plus eight
+w minus eight
+w divided by eight
+w over eight
+w times eight
+w multiplied by eight
+w plus nine
+w minus nine
+w divided by nine
+w over nine
+w times nine
+w multiplied by nine
+w plus ten
+w minus ten
+w divided by ten
+w over ten
+w times ten
+w multiplied by ten
+x plus one
+x minus one
+x divided by one
+x over one
+x times one
+x multiplied by one
+x plus two
+x minus two
+x divided by two
+x over two
+x times two
+x multiplied by two
+x plus three
+x minus three
+x divided by three
+x over three
+x times three
+x multiplied by three
+x plus four
+x minus four
+x divided by four
+x over four
+x times four
+x multiplied by four
+x plus five
+x minus five
+x divided by five
+x over five
+x times five
+x multiplied by five
+x plus six
+x minus six
+x divided by six
+x over six
+x times six
+x multiplied by six
+x plus seven
+x minus seven
+x divided by seven
+x over seven
+x times seven
+x multiplied by seven
+x plus eight
+x minus eight
+x divided by eight
+x over eight
+x times eight
+x multiplied by eight
+x plus nine
+x minus nine
+x divided by nine
+x over nine
+x times nine
+x multiplied by nine
+x plus ten
+x minus ten
+x divided by ten
+x over ten
+x times ten
+x multiplied by ten
+y plus one
+y minus one
+y divided by one
+y over one
+y times one
+y multiplied by one
+y plus two
+y minus two
+y divided by two
+y over two
+y times two
+y multiplied by two
+y plus three
+y minus three
+y divided by three
+y over three
+y times three
+y multiplied by three
+y plus four
+y minus four
+y divided by four
+y over four
+y times four
+y multiplied by four
+y plus five
+y minus five
+y divided by five
+y over five
+y times five
+y multiplied by five
+y plus six
+y minus six
+y divided by six
+y over six
+y times six
+y multiplied by six
+y plus seven
+y minus seven
+y divided by seven
+y over seven
+y times seven
+y multiplied by seven
+y plus eight
+y minus eight
+y divided by eight
+y over eight
+y times eight
+y multiplied by eight
+y plus nine
+y minus nine
+y divided by nine
+y over nine
+y times nine
+y multiplied by nine
+y plus ten
+y minus ten
+y divided by ten
+y over ten
+y times ten
+y multiplied by ten
+z plus one
+z minus one
+z divided by one
+z over one
+z times one
+z multiplied by one
+z plus two
+z minus two
+z divided by two
+z over two
+z times two
+z multiplied by two
+z plus three
+z minus three
+z divided by three
+z over three
+z times three
+z multiplied by three
+z plus four
+z minus four
+z divided by four
+z over four
+z times four
+z multiplied by four
+z plus five
+z minus five
+z divided by five
+z over five
+z times five
+z multiplied by five
+z plus six
+z minus six
+z divided by six
+z over six
+z times six
+z multiplied by six
+z plus seven
+z minus seven
+z divided by seven
+z over seven
+z times seven
+z multiplied by seven
+z plus eight
+z minus eight
+z divided by eight
+z over eight
+z times eight
+z multiplied by eight
+z plus nine
+z minus nine
+z divided by nine
+z over nine
+z times nine
+z multiplied by nine
+z plus ten
+z minus ten
+z divided by ten
+z over ten
+z times ten
+z multiplied by ten
