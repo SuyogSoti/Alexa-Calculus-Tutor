@@ -30,7 +30,7 @@ const handlers = {
             polyName = polySlot.value.toLowerCase();
 	        opName = opSlot.value.toLowerCase();
         }
-        var parentof = this
+        var parentof = this;
         polynomials(opName, polyName, function(ans) {
             // op = opName;
             // express = polyName;
