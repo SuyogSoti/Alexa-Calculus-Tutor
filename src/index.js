@@ -26,12 +26,18 @@ const handlers = {
         var polyName;
 	var opSlot = this.event.request.intent.slots.Operation;
 	var opName = "";
+	var lowSlot = this.event.request.intent.slots.LowerBound;
+	var lowName = "";
+	var upSlot = this.event.request.intent.slots.UpperBound;
+	var upName = "";
         if (polySlot && polySlot.value && opSlot && opSlot.value) {
             polyName = polySlot.value.toLowerCase();
-	        opName = opSlot.value.toLowerCase();
+	    opName = opSlot.value.toLowerCase();
+	    lowName = lowSlot.value.toLowerCase();
+	    upName = upSlot.value.toLowerCase();
         }
         var parentof = this;
-        polynomials(opName, polyName, function(ans) {
+        polynomials(opName, polyName, lowName, upName function(ans) {
             // op = opName;
             // express = polyName;
 
