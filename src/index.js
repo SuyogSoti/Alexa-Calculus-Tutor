@@ -25,10 +25,10 @@ const handlers = {
         var polySlot = this.event.request.intent.slots.Polynomial;
         var polyName;
 	var opSlot = this.event.request.intent.slots.Operation;
-	var opName;
+	var opName = "";
         if (polySlot && polySlot.value && opSlot && opSlot.value) {
             polyName = polySlot.value.toLowerCase();
-	    opName = opSlot.value.toLowerCase();
+	        opName = opSlot.value.toLowerCase();
         }
         var parentof = this
         polynomials(opName, polyName, function(ans) {
