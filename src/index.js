@@ -30,33 +30,34 @@ const handlers = {
             polyName = polySlot.value.toLowerCase();
 	    opName = opSlot.value.toLowerCase();
         }
-        var ans = polynomials(opName, polyName);
-        // op = opName;
-        // express = polyName;
+        var parentof = this
+        polynomials(opName, polyName, function(ans) {
+            // op = opName;
+            // express = polyName;
 
-        const cardTitle = this.t('DISPLAY_CARD_TITLE', this.t('SKILL_NAME'), polyName);
-        var myPolys = this.t('POLYNOMIALS');
-        ;
+            const cardTitle = parentof.t('DISPLAY_CARD_TITLE', parentof.t('SKILL_NAME'), polyName);
+            var myPolys = parentof.t('POLYNOMIALS');
 
-        if (ans) {
-            this.attributes.speechOutput = ans;
-            this.attributes.repromptSpeech = this.t('POLYNOMIAL_REPEAT_MESSAGE');
-            this.emit(':askWithCard', ans, this.attributes.repromptSpeech, cardTitle, ans);
-        } else {
-            var speechOutput = this.t('POLYNOMIAL_NOT_FOUND_MESSAGE');
-            var repromptSpeech = this.t('POLYNOMIAL_NOT_FOUND_REPROMPT');
-            if (polyName) {
-                speechOutput += this.t('POLYNOMIAL_NOT_FOUND');
+            if (ans) {
+                parentof.attributes.speechOutput = ans;
+                parentof.attributes.repromptSpeech = parentof.t('POLYNOMIAL_REPEAT_MESSAGE');
+                parentof.emit(':askWithCard', ans, parentof.attributes.repromptSpeech, cardTitle, ans);
             } else {
-                speechOutput += this.t('POLYNOMIAL_NOT_FOUND');
+                var speechOutput = parentof.t('POLYNOMIAL_NOT_FOUND_MESSAGE');
+                var repromptSpeech = parentof.t('POLYNOMIAL_NOT_FOUND_REPROMPT');
+                if (polyName) {
+                    speechOutput += parentof.t('POLYNOMIAL_NOT_FOUND');
+                } else {
+                    speechOutput += parentof.t('POLYNOMIAL_NOT_FOUND');
+                }
+                speechOutput += repromptSpeech;
+
+                parentof.attributes.speechOutput = speechOutput;
+                parentof.attributes.repromptSpeech = repromptSpeech;
+
+                parentof.emit(':ask', speechOutput, repromptSpeech);
             }
-            speechOutput += repromptSpeech;
-
-            this.attributes.speechOutput = speechOutput;
-            this.attributes.repromptSpeech = repromptSpeech;
-
-            this.emit(':ask', speechOutput, repromptSpeech);
-        }
+        });
     },
     'AMAZON.HelpIntent': function () {
         this.attributes.speechOutput = this.t('HELP_MESSAGE');

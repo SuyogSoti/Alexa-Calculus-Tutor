@@ -1,7 +1,9 @@
 /* eslint-disable  func-names */
 // /* eslint quote-props: ["error", "consistent"]*/
 var API = "2KE3YV-L8L7EQ62RE";
-var wolfram = require('wolfram-alpha').createClient(API);
+// var wolfram = require('wolfram-alpha').createClient(API);
+var client = require('node-wolfram');
+var wolfram = new client(API);
 
 module.exports = {
     POLYNOMIAL_EN_US: {
@@ -16,7 +18,6 @@ module.exports = {
 
 module.exports = (operation, equation, callback) => {
     // var Sync = require("sync");
-    var lol = "";
     // Sync(function() {
     wolfram.query(operation + " " + equation, function(err, result){
         // console.log("Operation: " + operation);
@@ -24,7 +25,8 @@ module.exports = (operation, equation, callback) => {
         if (err) throw err;
         // console.log(result);
         // lol = result[0].subpods[0].text.split("=")[1];
-        callback(result[0].subpods[0].text.split(" = ")[1]);
+        callback(result.queryresult.pod[0].subpod[0].plaintext[0].split(" = ")[1]);
+        // callback("2 x");
     })
     // })
 }
