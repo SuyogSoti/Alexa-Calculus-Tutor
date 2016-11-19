@@ -16,12 +16,18 @@ module.exports = {
     }
 };
 
-module.exports = (operation, equation, callback) => {
+module.exports = (operation, equation, lowerBound, UpperBound, callback) => {
     // var Sync = require("sync");
     // Sync(function() {
     var mystr = operation + " " + equation;
+    if(lowerBound.length > 0){
+        mystr += " from " + lowerBound + " to " + UpperBound;
+    }else if (UpperBound.length > 0){
+        mystr += " as it approaches " + UpperBound;
+    }
     mystr = mystr.replace("open", "(");
     mystr = mystr.replace("close", ")");
+    // console.log(mystr);
     wolfram.query(mystr, function(err, result){
         // console.log("Operation: " + operation);
         // console.log("Equation: " + equation);
@@ -29,8 +35,14 @@ module.exports = (operation, equation, callback) => {
         // console.log(result);
         // lol = result[0].subpods[0].text.split("=")[1];
         var first = result.queryresult.pod[0].subpod[0].plaintext[0].toString();
-        var second = result.queryresult.pod[1].subpod[0].plaintext[0].toString();
-        if(first.substring(0,3) == "d/d" || first.split(" ")[1] == "integral"){
+        var second = "";
+        if(result.queryresult.pod.length > 1){
+            second = result.queryresult.pod[1].subpod[0].plaintext[0].toString();
+        }
+        // var first = "";
+        // var second = first;
+        // console.log(result.queryresult.pod[0].subpod[0].plaintext[0].toString());
+        if(first.substring(0,3) == "d/d" || first.substring(1,9) == "integral" || first.substring(0,3) == "lim"){
             callback(first);
         }else{
             callback(second);
