@@ -19,13 +19,15 @@ module.exports = {
 module.exports = (operation, equation, lowerBound, UpperBound, callback) => {
     // var Sync = require("sync");
     // Sync(function() {
+    var mystr = operation + " " + equation;
     if(lowerBound.length > 0){
-        var mystr = operation + " " + equation + " from " + lowerBound + " to " + UpperBound;
-    }else{
-        var mystr = operation + " " + equation;
+        mystr += " from " + lowerBound + " to " + UpperBound;
+    }else if (UpperBound.length > 0){
+        mystr += " as it approaches " + UpperBound;
     }
     mystr = mystr.replace("open", "(");
     mystr = mystr.replace("close", ")");
+    console.log(mystr);
     wolfram.query(mystr, function(err, result){
         // console.log("Operation: " + operation);
         // console.log("Equation: " + equation);
