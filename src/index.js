@@ -33,10 +33,10 @@ const handlers = {
         if (polySlot && polySlot.value && opSlot && opSlot.value) {
             polyName = polySlot.value.toLowerCase();
     	    opName = opSlot.value.toLowerCase();
-            if (lowSlot){
+            if (lowSlot.value){
                 lowName = lowSlot.value.toLowerCase();
             }
-            if (upSlot) {
+            if (upSlot.value) {
                 upName = upSlot.value.toLowerCase();
             }
         }
