@@ -47,7 +47,7 @@ const handlers = {
 
             const cardTitle = parentof.t('DISPLAY_CARD_TITLE', parentof.t('SKILL_NAME'), polyName);
             var myPolys = parentof.t('POLYNOMIALS');
-
+            console.log("ANS:" + ans);
             if (ans) {
                 parentof.attributes.speechOutput = ans;
                 parentof.attributes.repromptSpeech = parentof.t('POLYNOMIAL_REPEAT_MESSAGE');

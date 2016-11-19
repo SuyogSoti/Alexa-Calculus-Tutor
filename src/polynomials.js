@@ -34,12 +34,26 @@ module.exports = (operation, equation, lowerBound, UpperBound, callback) => {
         if (err) throw err;
         // console.log(result);
         // lol = result[0].subpods[0].text.split("=")[1];
+        console.log("Operation: "+operation);
+        console.log("Expression: "+equation);
         var first = result.queryresult.pod[0].subpod[0].plaintext[0].toString();
         var second = "";
         if(result.queryresult.pod.length > 1){
             second = result.queryresult.pod[1].subpod[0].plaintext[0].toString();
         }
         // var first = "";
+        // console.log(result.queryresult.pod);
+        if (operation.length == 0) {
+            second = first;
+            // console.log(second);
+            for(var i = 0; i < result.queryresult.pod.length; i++){
+                // console.log(result.queryresult.pod[i].$.title);
+                if (result.queryresult.pod[i].$.title == 'Result') {
+                    second = result.queryresult.pod[i].subpod[0].plaintext[0].toString();
+                    break;
+                }
+            }
+        }
         // var second = first;
         // console.log(result.queryresult.pod[0].subpod[0].plaintext[0].toString());
         if(first.substring(0,3) == "d/d" || first.substring(1,9) == "integral" || first.substring(0,3) == "lim"){
