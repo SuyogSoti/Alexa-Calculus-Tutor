@@ -12,6 +12,7 @@ const polynomials = require('./polynomials');
 
 const APP_ID = undefined; // TODO replace with your app ID (OPTIONAL).
 
+
 const handlers = {
     'NewSession': function () {
         this.attributes.speechOutput = this.t('WELCOME_MESSAGE', this.t('SKILL_NAME'));
@@ -29,15 +30,18 @@ const handlers = {
             polyName = polySlot.value.toLowerCase();
 	    opName = opSlot.value.toLowerCase();
         }
+        var ans = polynomials(opName, polyName);
+        // op = opName;
+        // express = polyName;
 
         const cardTitle = this.t('DISPLAY_CARD_TITLE', this.t('SKILL_NAME'), polyName);
         var myPolys = this.t('POLYNOMIALS');
         ;
 
-        if (polynomial) {
-            this.attributes.speechOutput = polynomial;
+        if (ans) {
+            this.attributes.speechOutput = ans;
             this.attributes.repromptSpeech = this.t('POLYNOMIAL_REPEAT_MESSAGE');
-            this.emit(':askWithCard', polynomial, this.attributes.repromptSpeech, cardTitle, polynomial);
+            this.emit(':askWithCard', ans, this.attributes.repromptSpeech, cardTitle, ans);
         } else {
             var speechOutput = this.t('POLYNOMIAL_NOT_FOUND_MESSAGE');
             var repromptSpeech = this.t('POLYNOMIAL_NOT_FOUND_REPROMPT');
