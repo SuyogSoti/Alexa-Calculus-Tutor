@@ -25,8 +25,14 @@ module.exports = (operation, equation, lowerBound, UpperBound, callback) => {
     }else if (UpperBound.length > 0){
         mystr += " as it approaches " + UpperBound;
     }
-    mystr = mystr.replace("open", "(");
-    mystr = mystr.replace("close", ")");
+    while(mystr.indexOf("open") > -1){
+        mystr = mystr.replace("open", "(");
+    }
+    while(mystr.indexOf("close") > -1){
+        mystr = mystr.replace("close", ")");
+    }
+    console.log(mystr);
+    // return;
     // console.log(mystr);
     wolfram.query(mystr, function(err, result){
         // console.log("Operation: " + operation);
@@ -45,6 +51,7 @@ module.exports = (operation, equation, lowerBound, UpperBound, callback) => {
         // console.log(result.queryresult.pod);
         if (operation.length == 0) {
             second = first;
+            console.log(first);
             // console.log(second);
             for(var i = 0; i < result.queryresult.pod.length; i++){
                 // console.log(result.queryresult.pod[i].$.title);
