@@ -47,11 +47,11 @@ module.exports = (operation, equation, lowerBound, UpperBound, callback) => {
         if(result.queryresult.pod.length > 1){
             second = result.queryresult.pod[1].subpod[0].plaintext[0].toString();
         }
+        // console.log(first);
         // var first = "";
-        // console.log(result.queryresult.pod);
         if (operation.length == 0) {
             second = first;
-            console.log(first);
+            // console.log(first);
             // console.log(second);
             for(var i = 0; i < result.queryresult.pod.length; i++){
                 // console.log(result.queryresult.pod[i].$.title);
@@ -66,6 +66,7 @@ module.exports = (operation, equation, lowerBound, UpperBound, callback) => {
         if(first.substring(0,3) == "d/d" || first.substring(1,9) == "integral" || first.substring(0,3) == "lim"){
             callback(first);
         }else{
+            console.log(second);
             callback(second);
         }
         // console.log(result.queryresult.pod[0].subpod[0].plaintext);

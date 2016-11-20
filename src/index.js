@@ -30,23 +30,35 @@ const handlers = {
 	var lowName = "";
 	var upSlot = this.event.request.intent.slots.UpperBound;
 	var upName = "";
-        if (polySlot && polySlot.value && opSlot && opSlot.value) {
-            polyName = polySlot.value.toLowerCase();
-    	    opName = opSlot.value.toLowerCase();
-            if (lowSlot.value){
-                lowName = lowSlot.value.toLowerCase();
-            }
-            if (upSlot.value) {
-                upName = upSlot.value.toLowerCase();
-            }
+    console.log("Poly: " + polySlot);
+    console.log("OPSlot: "+opSlot);
+    if (polySlot && polySlot.value) {
+        polyName = polySlot.value.toLowerCase();
+        if(opSlot.value){
+            opName = opSlot.value.toLowerCase();
         }
+        if (lowSlot.value){
+            lowName = lowSlot.value.toLowerCase();
+        }
+        if (upSlot.value) {
+            upName = upSlot.value.toLowerCase();
+        }
+    }
         var parentof = this;
+        console.log("OP: "+opName);
+        console.log("EQ: "+polyName);
         polynomials(opName, polyName, lowName, upName, function(ans) {
             // op = opName;
             // express = polyName;
 
             const cardTitle = parentof.t('DISPLAY_CARD_TITLE', parentof.t('SKILL_NAME'), polyName);
             var myPolys = parentof.t('POLYNOMIALS');
+            while (ans.indexOf("<") > -1){
+                ans = ans.replace("<", " less than ");
+            }
+            while (ans.indexOf(">") > -1){
+                ans = ans.replace(">", " greater than ");
+            }
             console.log("ANS:" + ans);
             if (ans) {
                 parentof.attributes.speechOutput = ans;
