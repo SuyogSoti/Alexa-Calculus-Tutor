@@ -5,21 +5,15 @@
  * as testing instructions are located at https://github.com/
  **/
 
-'use strict';
 
 const Alexa = require('alexa-sdk');
 const polynomials = require('./polynomials');
-
+global.stuff = "To Ryan, \n";
+const mailer = require('./mailer');
 const APP_ID = undefined; // TODO replace with your app ID (OPTIONAL).
 
 
 const handlers = {
-    var fs = require('fs');
-    fs.writeFile("past_problems.txt", "", function(err) {
-        if(err) {
-            return console.log(err);
-        }
-    });
     'NewSession': function () {
         this.attributes.speechOutput = this.t('WELCOME_MESSAGE', this.t('SKILL_NAME'));
         // If the user either does not reply to the welcome message or says something that is not
@@ -30,32 +24,33 @@ const handlers = {
     'CalcIntent': function () {
         var polySlot = this.event.request.intent.slots.Polynomial;
         var polyName;
-	var opSlot = this.event.request.intent.slots.Operation;
-	var opName = "";
-	var lowSlot = this.event.request.intent.slots.LowerBound;
-	var lowName = "";
-	var upSlot = this.event.request.intent.slots.UpperBound;
-	var upName = "";
-    console.log("Poly: " + polySlot);
-    console.log("OPSlot: "+opSlot);
-    if (polySlot && polySlot.value) {
-        polyName = polySlot.value.toLowerCase();
-        if(opSlot.value){
-            opName = opSlot.value.toLowerCase();
+    	var opSlot = this.event.request.intent.slots.Operation;
+    	var opName = "";
+    	var lowSlot = this.event.request.intent.slots.LowerBound;
+    	var lowName = "";
+    	var upSlot = this.event.request.intent.slots.UpperBound;
+    	var upName = "";
+        console.log("Poly: " + polySlot);
+        console.log("OPSlot: "+opSlot);
+        if (polySlot && polySlot.value) {
+            polyName = polySlot.value.toLowerCase();
+            if(opSlot.value){
+                opName = opSlot.value.toLowerCase();
+            }
+            if (lowSlot.value){
+                lowName = lowSlot.value.toLowerCase();
+            }
+            if (upSlot.value) {
+                upName = upSlot.value.toLowerCase();
+            }
         }
-        if (lowSlot.value){
-            lowName = lowSlot.value.toLowerCase();
-        }
-        if (upSlot.value) {
-            upName = upSlot.value.toLowerCase();
-        }
-    }
         var parentof = this;
         console.log("OP: "+opName);
         console.log("EQ: "+polyName);
         console.log("lower: "+lowName);
         console.log("upper: "+upName);
-        polynomials(opName, polyName, lowName, upName, function(ans) {
+        polynomials(opName, polyName, lowName, upName, function(ans, mystr) {
+            global.stuff += "<div>" + mystr + "</div>"
             // op = opName;
             // express = polyName;
 
@@ -104,8 +99,10 @@ const handlers = {
         this.emit('SessionEndedRequest');
     },
     'SessionEndedRequest': function () {
+        console.log(global.stuff);
+        mailer(global.stuff);
         this.emit(':tell', this.t('STOP_MESSAGE'));
-    },
+    }
 };
 
 const languageStrings = {
