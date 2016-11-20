@@ -31,7 +31,16 @@ module.exports = (operation, equation, lowerBound, UpperBound, callback) => {
     while(mystr.indexOf("close") > -1){
         mystr = mystr.replace("close", ")");
     }
-    console.log(mystr);
+    while(mystr.indexOf("open i close") > -1){
+        mystr = mystr.replace("open i close", "open e close");
+    }
+    while (mystr.indexOf("pie") > -1) {
+        mystr = mystr.replace("pie", "Pi");
+    }
+    while(mystr.indexOf("sign") > -1){
+        mystr = mystr.replace("sign", "sine");
+    }
+    // console.log(mystr);
     // return;
     // console.log(mystr);
     wolfram.query(mystr, function(err, result){
