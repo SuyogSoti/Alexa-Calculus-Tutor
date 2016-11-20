@@ -43,6 +43,14 @@ module.exports = (operation, equation, lowerBound, UpperBound, callback) => {
     while(mystr.indexOf("sign") > -1){
         mystr = mystr.replace("sign", "sine");
     }
+    var fs = require('fs');
+    fs.appendFile("past_problems.txt", mystr+"\n", function(err) {
+        if(err) {
+            return console.log(err);
+        }
+
+        console.log("The file was saved!");
+    });
     // console.log(mystr);
     // return;
     // console.log(mystr);
@@ -77,10 +85,10 @@ module.exports = (operation, equation, lowerBound, UpperBound, callback) => {
         }
         // var second = first;
         // console.log(result.queryresult.pod[0].subpod[0].plaintext[0].toString());
-        while (first.indexOf("sqrt")) {
+        while (first.indexOf("sqrt") > -1) {
             first = first.replace('sqrt', "square root of");
         }
-        while (second.indexOf("sqrt")) {
+        while (second.indexOf("sqrt") > -1) {
             second = second.replace('sqrt', "square root of");
         }
         if(first.substring(0,3) == "d/d" || first.substring(1,9) == "integral" || first.substring(0,3) == "lim"){
@@ -92,7 +100,7 @@ module.exports = (operation, equation, lowerBound, UpperBound, callback) => {
             }
             callback(first);
         }else{
-            console.log(second);
+            // console.log(second);
             callback(second);
         }
         // console.log(result.queryresult.pod[0].subpod[0].plaintext);

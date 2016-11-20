@@ -14,6 +14,12 @@ const APP_ID = undefined; // TODO replace with your app ID (OPTIONAL).
 
 
 const handlers = {
+    var fs = require('fs');
+    fs.appendFile("past_problems.txt", "", function(err) {
+        if(err) {
+            return console.log(err);
+        }
+    });
     'NewSession': function () {
         this.attributes.speechOutput = this.t('WELCOME_MESSAGE', this.t('SKILL_NAME'));
         // If the user either does not reply to the welcome message or says something that is not
