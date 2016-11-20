@@ -47,6 +47,8 @@ const handlers = {
         var parentof = this;
         console.log("OP: "+opName);
         console.log("EQ: "+polyName);
+        console.log("lower: "+lowName);
+        console.log("upper: "+upName);
         polynomials(opName, polyName, lowName, upName, function(ans) {
             // op = opName;
             // express = polyName;

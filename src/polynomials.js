@@ -54,6 +54,8 @@ module.exports = (operation, equation, lowerBound, UpperBound, callback) => {
         // lol = result[0].subpods[0].text.split("=")[1];
         console.log("Operation: "+operation);
         console.log("Expression: "+equation);
+        // console.log(result.queryresult.pod);
+        // return
         var first = result.queryresult.pod[0].subpod[0].plaintext[0].toString();
         var second = "";
         if(result.queryresult.pod.length > 1){
@@ -75,6 +77,12 @@ module.exports = (operation, equation, lowerBound, UpperBound, callback) => {
         }
         // var second = first;
         // console.log(result.queryresult.pod[0].subpod[0].plaintext[0].toString());
+        while (first.indexOf("sqrt")) {
+            first = first.replace('sqrt', "square root of");
+        }
+        while (second.indexOf("sqrt")) {
+            second = second.replace('sqrt', "square root of");
+        }
         if(first.substring(0,3) == "d/d" || first.substring(1,9) == "integral" || first.substring(0,3) == "lim"){
             if (first.substring(0,3) == "d/d") {
                 first = first.replace(first.substring(0,4), "Derivative of ");
