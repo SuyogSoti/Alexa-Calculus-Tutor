@@ -1,0 +1,52 @@
+CalcIntent add AMAZON.NUMBER and AMAZON.NUMBER
+CalcIntent add AMAZON.NUMBER plus AMAZON.NUMBER
+CalcIntent add AMAZON.NUMBER and {Polynomial}
+CalcIntent add AMAZON.NUMBER plus {Polynomial}
+CalcIntent sum AMAZON.NUMBER and AMAZON.NUMBER
+CalcIntent sum AMAZON.NUMBER and {Polynomial}
+CalcIntent subtract AMAZON.NUMBER from AMAZON.NUMBER
+CalcIntent find AMAZON.NUMBER minus AMAZON.NUMBER
+CalcIntent find AMAZON.NUMBER minus {Polynomial}
+CalcIntent find AMAZON.NUMBER times AMAZON.NUMBER
+CalcIntent multiply AMAZON.NUMBER and AMAZON.NUMBER
+CalcIntent find AMAZON.NUMBER times {Polynomial}
+CalcIntent multiply AMAZON.NUMBER and {Polynomial}
+CalcIntent divide AMAZON.NUMBER by AMAZON.NUMBER
+CalcIntent find AMAZON.NUMBER over AMAZON.NUMBER
+CalcIntent divide AMAZON.NUMBER by {Polynomial}
+CalcIntent find AMAZON.NUMBER over {Polynomial}
+CalcIntent {Polynomial}
+CalcIntent find {Polynomial}
+CalcIntent find {Polynomial} plus {Polynomial}
+CalcIntent find sum {Polynomial} and {Polynomial}
+CalcIntent what is the sum of {Polynomial} and {Polynomial}
+CalcIntent what is {Polynomial} plus {Polynomial}
+CalcIntent find the difference between {Polynomial} and {Polynomial}
+CalcIntent find difference between {Polynomial} and {Polynomial}
+CalcIntent find {Polynomial} minus {Polynomial}
+CalcIntent what is the difference between {Polynomial} and {Polynomial}
+CalcIntent what is {Polynomial} minus {Polynomial}
+CalcIntent find {Polynomial} times {Polynomial}
+CalcIntent find {Polynomial} multiplied by {Polynomial}
+CalcIntent what is {Polynomial} times {Polynomial}
+CalcIntent what is {Polynomial} multiplied by {Polynomial}
+CalcIntent find {Polynomial} divided by {Polynomial}
+CalcIntent find {Polynomial} over {Polynomial}
+CalcIntent what is {Polynomial} divided by {Polynomial}
+CalcIntent what is {Polynomial} over {Polynomial}
+CalcIntent find {Operation} of {Polynomial}
+CalcIntent find the {Operation} of {Polynomial}
+CalcIntent what is {Operation} of {Polynomial}
+CalcIntent what is the {Operation} of {Polynomial}
+CalcIntent {Operation} {Polynomial}
+CalcIntent find {Operation} of {Polynomial} from {LowerBound} to {UpperBound}
+CalcIntent what is {Operation} of {Polynomial} from {LowerBound} to {UpperBound}
+CalcIntent what is the {Operation} of {Polynomial} from {LowerBound} to {UpperBound}
+CalcIntent find {Operation} of {Polynomial} on the range {LowerBound} to {UpperBound}
+CalcIntent what is {Operation} of {Polynomial} on the range {LowerBound} to {UpperBound}
+CalcIntent find {Operation} of {Polynomial} from x equals {LowerBound} to x equals {UpperBound}
+CalcIntent what is {Operation} of {Polynomial} from x equals {LowerBound} to x equals {UpperBound}
+CalcIntent does {Polynomial} {Operation}
+CalcIntent will {Polynomial} {Operation}
+CalcIntent check {Operation} of {Polynomial}
+CalcIntent find the {Operation} of {Polynomial} as x approaches {UpperBound}

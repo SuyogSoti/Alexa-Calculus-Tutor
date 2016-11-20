@@ -1,0 +1,45 @@
+{
+  "intents": [
+    {
+      "intent": "CalcIntent",
+      "slots": [
+      {
+        "name" : "Polynomial",
+        "type": "LIST_OF_POLYNOMIALS"
+      },
+      {
+        "name" : "Operation",
+        "type" : "LIST_OF_OPERATIONS"
+      },
+      {
+        "name" : "LowerBound",
+        "type" : "AMAZON.NUMBER"
+      },
+      {
+        "name" : "UpperBound",
+        "type" : "AMAZON.NUMBER"
+      },
+      {
+        "name" : "NumberOne",
+        "type" : "AMAZON.NUMBER"
+      },
+      {
+        "name" : "NumberTwo",
+        "type" : "AMAZON.NUMBER"
+      }
+     ]
+    },
+    {
+      "intent": "AMAZON.RepeatIntent"
+    },
+    {
+      "intent": "AMAZON.HelpIntent"
+    },
+    {
+      "intent": "AMAZON.StopIntent"
+    },
+    {
+      "intent": "AMAZON.CancelIntent"
+    }
+  ]
+}

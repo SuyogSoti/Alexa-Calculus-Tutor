@@ -1,0 +1,22 @@
+differentiate
+integral
+integrate
+min
+min value
+minimum value
+smallest value
+max
+max value
+maximum value
+largest value
+domain
+range
+root
+zeroes
+converge
+converges
+convergeance
+limit
+expand
+macclaurin series
+taylor series
