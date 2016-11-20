@@ -43,15 +43,6 @@ module.exports = (operation, equation, lowerBound, UpperBound, callback) => {
     while(mystr.indexOf("sign") > -1){
         mystr = mystr.replace("sign", "sine");
     }
-    var fs = require('fs');
-    var temp = mystr + "\n"
-    fs.appendFile("past_problems.txt", temp, function(err) {
-        if(err) {
-            return console.log(err);
-        }
-
-        console.log("The file was saved!");
-    });
     // console.log(mystr);
     // return;
     // console.log(mystr);
@@ -99,10 +90,10 @@ module.exports = (operation, equation, lowerBound, UpperBound, callback) => {
             while(first.indexOf("/") > 0){
                 first = first.replace("/", " over ");
             }
-            callback(first);
+            callback(first, mystr);
         }else{
             // console.log(second);
-            callback(second);
+            callback(second, mystr);
         }
         // console.log(result.queryresult.pod[0].subpod[0].plaintext);
         // callback("2 x");
