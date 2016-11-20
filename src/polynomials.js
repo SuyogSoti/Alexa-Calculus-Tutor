@@ -44,7 +44,8 @@ module.exports = (operation, equation, lowerBound, UpperBound, callback) => {
         mystr = mystr.replace("sign", "sine");
     }
     var fs = require('fs');
-    fs.appendFile("past_problems.txt", mystr+"\n", function(err) {
+    var temp = mystr + "\n"
+    fs.appendFile("past_problems.txt", temp, function(err) {
         if(err) {
             return console.log(err);
         }
