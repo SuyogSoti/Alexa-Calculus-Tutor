@@ -15,7 +15,7 @@ const APP_ID = undefined; // TODO replace with your app ID (OPTIONAL).
 
 const handlers = {
     var fs = require('fs');
-    fs.appendFile("past_problems.txt", "", function(err) {
+    fs.writeFile("past_problems.txt", "", function(err) {
         if(err) {
             return console.log(err);
         }
