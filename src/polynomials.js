@@ -37,6 +37,9 @@ module.exports = (operation, equation, lowerBound, UpperBound, callback) => {
     while (mystr.indexOf("pie") > -1) {
         mystr = mystr.replace("pie", "Pi");
     }
+    while (mystr.indexOf("high") > -1) {
+        mystr = mystr.replace("high", "Pi");
+    }
     while(mystr.indexOf("sign") > -1){
         mystr = mystr.replace("sign", "sine");
     }
@@ -73,6 +76,12 @@ module.exports = (operation, equation, lowerBound, UpperBound, callback) => {
         // var second = first;
         // console.log(result.queryresult.pod[0].subpod[0].plaintext[0].toString());
         if(first.substring(0,3) == "d/d" || first.substring(1,9) == "integral" || first.substring(0,3) == "lim"){
+            if (first.substring(0,3) == "d/d") {
+                first = first.replace(first.substring(0,4), "Derivative of ");
+            }
+            while(first.indexOf("/") > 0){
+                first = first.replace("/", " over ");
+            }
             callback(first);
         }else{
             console.log(second);
