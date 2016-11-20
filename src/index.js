@@ -113,7 +113,7 @@ const languageStrings = {
         translation: {
             POLYNOMIALS: polynomials.POLYNOMIAL_EN_US,
             SKILL_NAME: 'Alexa Calculus Tutor',
-            WELCOME_MESSAGE: "Welcome to %s. You probably need help with simple problems such as, finding the integral of two x ... So, what do you want.",
+            WELCOME_MESSAGE: "Welcome to %s. You probably need help with simple problems like integrating two x ... So, what do you want.",
             WELCOME_REPROMT: 'What\'s the matter? Need some help speaking? No wonder you need a tutor.',
             DISPLAY_CARD_TITLE: '%s  - Polynomial for %s.',
             HELP_MESSAGE: "I can help you with concepts such as differentiation, integration, optimization ... did you get that, or were those words too big for you?",
