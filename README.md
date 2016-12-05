@@ -1,4 +1,4 @@
-# who we are
+# Who we are
 Alexa Calculus Tutor is a skill for Amazon Alexa developed by Stevan Maksimovic, Suyog Soti, and Ryan Loi from University of Colorado at Boulder.
 
 # Alexa-Calculus-Tutor
