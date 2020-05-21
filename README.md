@@ -19,6 +19,3 @@ Along with these mathmatical functions, Alexa will also email the equations and 
 - Data Visualtization of holes in Math
 - Generate better practice problems
 - Double Integrals
-
-# License
-No one is allowed to use this piece of software for commercial purposes. If this software is used for commercial puposes without permission from the owners of the project, then 100% of the profits earned will belong to the project owners. Also, the project owners will receive 50% of the business as compensation.
